@@ -1,0 +1,209 @@
+.Title {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0vw;
+gap: 1.250vw;
+position: absolute;
+width: 6.094vw;
+height: 1.667vw;
+left: 3.125vw;
+top: 9.531vw;
+}
+
+.Title1 {
+width: 4.531vw;
+height: 1.667vw;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.042vw;
+line-height: 1.667vw;
+letter-spacing: 0.008vw;
+color: #383874;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Title2 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0vw;
+gap: 0.052vw;
+width: 3.438vw;
+height: 1.250vw;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Detail {
+width: 2.135vw;
+height: 0.833vw;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 0.521vw;
+line-height: 0.833vw;
+letter-spacing: 0.078vw;
+text-transform: uppercase;
+color: #383874;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Arrow {
+width: 1.250vw;
+height: 1.250vw;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Amount1 {
+position: absolute;
+width: 16.146vw;
+height: 6.146vw;
+left: 3.125vw;
+top: 10.469vw;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 3.750vw;
+line-height: 6.146vw;
+letter-spacing: -0.091vw;
+color: #383874;
+}
+
+.SideIndicators {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0vw;
+gap: 1.563vw;
+position: absolute;
+width: 11.354vw;
+height: 14.063vw;
+left: 3.125vw;
+top: 21.146vw;
+}
+
+.Informer {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1.354vw;
+width: 11.354vw;
+height: 3.646vw;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Informer:nth-child(2) {
+order: 1;
+}
+
+.Informer:nth-child(3) {
+order: 2;
+}
+
+.InformerIcon {
+position: absolute;
+width: 3.646vw;
+height: 3.646vw;
+order: 0;
+flex: none;
+flex-grow: 0;
+background: #8676FF;
+border-radius: 1.042vw;
+}
+
+.Informer:nth-child(2) .InformerIcon{
+background: #66C8FF;
+}
+
+.Informer:nth-child(3) .InformerIcon{
+background: #FF9066;
+}
+
+.Activity {
+position: absolute;
+width: 1.667vw;
+height: 1.667vw;
+left: 25%;
+top: 10%;
+color: #FFFFFF;
+}
+
+.Activity i {
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+color: #FFFFFF;
+}
+
+.InformerInfo {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 6.354vw;
+height: 3.333vw;
+flex: none;
+order: 1;
+flex-grow: 0;
+padding-left: 4.5vw;
+}
+
+.InformerTitle {
+width: 5.833vw;
+height: 1.667vw;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 0.95vw;
+line-height: 1.667vw;
+display: flex;
+align-items: center;
+letter-spacing: 0.023vw;
+color: #383874;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Amount2 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 0.208vw;
+width: 4.375vw;
+height: 1.667vw;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Amount2 .Value {
+width: 4.375vw;
+height: 1.667vw;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.042vw;
+line-height: 1.667vw;
+display: flex;
+align-items: center;
+letter-spacing: 0.008vw;
+color: #383874;
+flex: none;
+order: 0;
+flex-grow: 0;
+}

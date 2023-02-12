@@ -1,0 +1,168 @@
+.MapPin {
+z-index: 2;
+position: absolute;
+width: 9.375vw;
+height: 3.750vw;
+right: 5.885vw;
+top: calc(50% - 3.750vw/2 + 7.917vw);
+filter: drop-shadow(0vw 7.335vw 5.868vw rgba(41, 52, 149, 0.21)) drop-shadow(0vw 3.064vw 2.451vw rgba(41, 52, 149, 0.150959)) drop-shadow(0vw 1.638vw 1.311vw rgba(41, 52, 149, 0.125183)) drop-shadow(0vw 0.918vw 0.735vw rgba(41, 52, 149, 0.105)) drop-shadow(0vw 0.488vw 0.390vw rgba(41, 52, 149, 0.0848175)) drop-shadow(0vw 0.203vw 0.162vw rgba(41, 52, 149, 0.0590406));
+}
+
+.MapPin:nth-child(2) {
+right: 11.615vw;
+top: calc(50% - 3.750vw/2 - 7.708vw);
+}
+
+.MapPin:nth-child(3) {
+right: 31.510vw;
+top: calc(50% - 3.750vw/2 - 4.167vw);
+}
+
+.MapPin:nth-child(4) {
+right: 36.042vw;
+top: calc(50% - 3.750vw/2 - 15.417vw);
+}
+
+.MapPin:nth-child(5) {
+right: 53.333vw;
+top: calc(50% - 3.750vw/2 + 1.719vw);
+}
+
+.MapPin:nth-child(6) {
+right: 59.740vw;
+top: calc(50% - 3.750vw/2 - 11.146vw);
+}
+
+.PinArrow {
+position: absolute;
+width: 1.339vw;
+height: 0.938vw;
+left: calc(35% - 1.339vw/2 + 1.347vw);
+bottom: 0.417vw;
+background: #FFFFFF;
+transform: rotate(133deg);
+}
+
+.Tooltip {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0.313vw 0.521vw;
+gap: 0.625vw;
+position: absolute;
+width: 9.010vw;
+height: 3.125vw;
+left: 0vw;
+top: 0vw;
+background: #FFFFFF;
+border-radius: 0.833vw;
+}
+
+.PinIndicator {
+width: 2.083vw;
+height: 2.083vw;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.PinIcons {
+position: absolute;
+width: 1.250vw;
+height: 1.250vw;
+right: 7.552vw;
+top: calc(50% - 1.250vw/2);
+}
+
+.PinIcon {
+position: absolute;
+width: 1.250vw;
+height: 1.250vw;
+top: calc(50% - 1.250vw/2);
+}
+
+.PinIconSVG {
+position: absolute;
+left: 70%;
+right: 0%;
+top: -20%;
+bottom: 0%;
+color: #FFFFFF;
+z-index: 1;
+}
+
+.PinIconBg {
+position: absolute;
+left: 6.78%;
+right: 68.1%;
+top: 16.67%;
+bottom: 16.67%;
+background: #669AFF;
+border-radius: 0.625vw;
+}
+
+.MapPin:nth-child(2) .PinIconBg {
+background: #E8A5FF;
+}
+
+.MapPin:nth-child(3) .PinIconBg {
+background: #FF7E7E;
+}
+
+.MapPin:nth-child(4) .PinIconBg {
+background: #7BDDA2;
+}
+
+.MapPin:nth-child(5) .PinIconBg {
+background: #F8A243;
+}
+
+.MapPin:nth-child(6) .PinIconBg {
+background: #66C8FF;
+}
+
+.PinInfo {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0vw;
+width: 5.260vw;
+height: 2.500vw;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.PinTitle {
+width: 5.260vw;
+height: 1.042vw;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 0.833vw;
+line-height: 1.042vw;
+display: flex;
+align-items: center;
+letter-spacing: 0.023vw;
+color: #383874;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.PinAmount {
+width: 4.792vw;
+height: 1.458vw;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 1.0vw;
+line-height: 1.458vw;
+display: flex;
+align-items: center;
+letter-spacing: 0.008vw;
+color: #383874;
+flex: none;
+order: 1;
+flex-grow: 0;
+}

@@ -1,0 +1,259 @@
+.LHSTitle {
+position: absolute;
+width: 218px;
+height: 44px;
+left: 59px;
+top: calc(50% - 44px/2 - 427px);
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 44px;
+letter-spacing: -0.44px;
+color: #000000;
+}
+
+.Widget1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 0px;
+gap: 30px;
+position: absolute;
+width: 290px;
+height: 401px;
+left: 60px;
+top: 166px;
+background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+border-radius: 10px;
+}
+
+.Widget1Graph {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 30px;
+gap: 16px;
+
+width: 290px;
+height: 246px;
+
+/* Snow */
+
+background: #FFFFFF;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Widget1Info {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 230px;
+height: 84px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Widget1Title {
+width: 225px;
+height: 32px;
+
+/* Body / Title */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: 0.44px;
+
+/* Night Blue */
+
+color: #383874;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Widget1Amount {
+width: 81px;
+height: 36px;
+
+/* Headline / H5 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 36px;
+/* identical to box height, or 164% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Night Blue */
+
+color: #383874;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+.Widget1SubTitle {
+width: 230px;
+height: 16px;
+
+/* Tips and details / Caption */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.4px;
+
+/* Night Blue */
+
+color: #383874;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.Widget1Table {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 30px;
+gap: 11px;
+
+width: 290px;
+height: 85px;
+
+/* Snow */
+
+background: #FFFFFF;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Widget1TableInfo {
+width: 88px;
+height: 20px;
+
+/* Body / Body 2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.44px;
+
+/* Night Blue */
+
+color: #383874;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+}
+
+.Widget2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 30px;
+gap: 18px;
+
+position: absolute;
+width: 290px;
+height: 252px;
+left: 60px;
+top: calc(50% - 252px/2 + 181px);
+
+/* Purple Heart */
+
+background: #8676FF;
+/* Widget shadow */
+
+box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+border-radius: 10px;
+}
+
+.Widget3 {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 30px;
+gap: 14px;
+
+position: absolute;
+width: 290px;
+height: 128px;
+left: 60px;
+top: calc(50% - 128px/2 + 399px);
+
+background: #FFFFFF;
+/* Widget shadow */
+
+box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07), 0px 41.7776px 33.4221px rgba(108, 73, 172, 0.0503198), 0px 22.3363px 17.869px rgba(108, 73, 172, 0.0417275), 0px 12.5216px 10.0172px rgba(108, 73, 172, 0.035), 0px 6.6501px 5.32008px rgba(108, 73, 172, 0.0282725), 0px 2.76726px 2.21381px rgba(108, 73, 172, 0.0196802);
+border-radius: 10px;
+}
+
+.LHSBg {
+position: absolute;
+left: 20.83%;
+right: 0%;
+top: 5.56%;
+bottom: 3.52%;
+background: #EEF1FA;
+border-radius: 73px 0px 0px 73px;
+}

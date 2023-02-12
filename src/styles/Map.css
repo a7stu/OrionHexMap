@@ -1,0 +1,12 @@
+.HexMap {
+position: absolute;
+width: 69.844vw;
+height: 39.372vw;
+right: 7.135vw;
+top: calc(50% - 39.372vw/2 - 2.762vw);
+filter: drop-shadow(0vw 5.208vw 4.167vw rgba(108, 73, 172, 0.07)) drop-shadow(0vw 2.176vw 1.741vw rgba(108, 73, 172, 0.0503198)) drop-shadow(0vw 1.163vw 0.931vw rgba(108, 73, 172, 0.0417275)) drop-shadow(0vw 0.652vw 0.522vw rgba(108, 73, 172, 0.035)) drop-shadow(0vw 0.346vw 0.277vw rgba(108, 73, 172, 0.0282725)) drop-shadow(0vw 0.144vw 0.115vw rgba(108, 73, 172, 0.0196802));
+}
+
+canvas {
+display: none;
+}

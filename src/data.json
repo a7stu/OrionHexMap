@@ -1,0 +1,142 @@
+[
+    {
+      "users": {
+        "time": {
+          "new": 22652,
+          "existing": 33809
+        },
+        "usage": {
+          "active": 92980,
+          "nonActive": 344370
+        },
+        "miscellaneous": 1937529
+      }
+    },
+    {
+      "shop": {
+        "totalEarning": 540549,
+        "sales": {
+          "byCity": [
+            {
+              "name": "Queensland",
+              "amount": 6097321
+            },
+            {
+              "name": "Shanghai",
+              "amount": 239570110
+            },
+            {
+              "name": "Giza",
+              "amount": 10547980
+            },
+            {
+              "name": "Berlin",
+              "amount": 76541106
+            },
+            {
+              "name": "Manuas",
+              "amount": 12320300
+            },
+            {
+              "name": "Chicago",
+              "amount": 98320300
+            }
+          ],
+          "byMonths": [
+            {
+              "month": 1.5,
+              "type": "Sales",
+              "amount": 300,
+              "size": 22
+            },
+            {
+              "month": 2.2,
+              "type": "Sales",
+              "amount": 490,
+              "size": 8
+            },
+            {
+              "month": 2.7,
+              "type": "Users",
+              "amount": 630,
+              "size": 17
+            },
+            {
+              "month": 3.6,
+              "type": "Product",
+              "amount": 410,
+              "size": 73
+            },
+            {
+              "month": 4.4,
+              "type": "Users",
+              "amount": 300,
+              "size": 47
+            },
+            {
+              "month": 5.2,
+              "type": "Team",
+              "amount": 570,
+              "size": 124
+            },
+            {
+              "month": 6.6,
+              "type": "Sales",
+              "amount": 205,
+              "size": 12
+            },
+            {
+              "month": 8.2,
+              "type": "Team",
+              "amount": 415,
+              "size": 12
+            },
+            {
+              "month": 8.7,
+              "type": "Sales",
+              "amount": 600,
+              "size": 8
+            },
+            {
+              "month": 9.5,
+              "type": "Users",
+              "amount": 400,
+              "size": 65
+            },
+            {
+              "month": 10.1,
+              "type": "Team",
+              "amount": 540,
+              "size": 34
+            },
+            {
+              "month": 10.4,
+              "type": "Product",
+              "amount": 350,
+              "size": 38
+            },
+            {
+              "month": 11.2,
+              "type": "Sales",
+              "amount": 400,
+              "size": 8
+            },
+            {
+              "month": 11.6,
+              "type": "Sales",
+              "amount": 280,
+              "size": 22
+            }
+          ],
+          "byWeek": [
+            { "amount": 1 },
+            { "amount": 2 },
+            { "amount": 3 },
+            { "amount": 4 }
+          ],
+          "sales": 1205677,
+          "purchase": 48430039
+        }
+      }
+    }
+]

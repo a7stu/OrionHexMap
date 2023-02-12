@@ -1,0 +1,158 @@
+.NavigationBar {
+position: absolute;
+height: 3.125vw;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FFFFFF;
+}
+
+.Logo {
+position: absolute;
+width: 5.833vw;
+height: 1.667vw;
+left: 3%;
+top: 0.729vw;
+}
+
+.OrionLogo {
+position: absolute;
+width: 1.094vw;
+height: 1.094vw;
+left: 0.26vw;
+top: calc(50% - 1.094vw/2 - 0.026vw);
+background: conic-gradient(from 180deg at 50% 50%, #7000FF 0deg, #7D9AFF 0.04deg, #FF7AD2 183.75deg, #7000FF 360deg);
+border-radius: 50%;
+z-index: 0;
+}
+
+.OrionLogo::after {
+content: "";
+display: block;
+position: absolute;
+left: 50%;
+top: calc(50% - 0.521vw/2);
+margin-left: -5px;
+width: 0.521vw;
+height: 0.521vw;
+border-radius: 50%;
+z-index: 1;
+background: white;
+opacity: 1;
+}
+
+.OrionName {
+position: absolute;
+width: 3.542vw;
+height: 1.146vw;
+left: 1.944vw;
+top: calc(50% - 1.146vw/2);
+font-family: 'Archivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.068vw;
+line-height: 1.146vw;
+color: #000000;
+}
+
+.Search {
+position: absolute;
+width: 27.083vw;
+height: 1.667vw;
+left: calc(50% - 27.083vw/2 - 15.625vw);
+top: calc(50% - 1.667vw/2);
+}
+
+input {
+position: absolute;
+width: 27.083vw;
+height: 1.667vw;
+left: 0vw;
+top: 0vw;
+background: #EEF0FA;
+border-radius: 0.417vw;
+border: none;
+}
+
+.Icon {
+position: absolute;
+width: 1.250vw;
+height: 1.250vw;
+right: 0.365vw;
+top: calc(50% - 1.250vw/2);
+}
+
+.SearchIcon {
+position: absolute;
+left: -20%;
+right: 0%;
+top: -20%;
+bottom: 0%;
+width: fit-content;
+border: none;
+background-color: transparent;
+color: #A1A3D4;
+height: 0.794vw;
+width: 0.794vw;
+}
+
+.Menu {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0vw;
+gap: 2.083vw;
+position: absolute;
+width: 29.740vw;
+height: 1.250vw;
+left: calc(50% - 29.740vw/2 + 18.359vw);
+top: calc(50% - 1.250vw/2);
+}
+
+.Label {
+width: 5.938vw;
+height: 1.250vw;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 0.833vw;
+line-height: 1.250vw;
+letter-spacing: 0.023vw;
+color: #8484A0;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-decoration: none;
+}
+
+.Label:hover {
+cursor: pointer;
+color: black !important;
+}
+
+.Label:hover::after {
+padding-bottom: 0.833vw;
+border-bottom: 0.156vw solid #5756B3;
+content: "";
+display: block;
+opacity: 1;
+}
+
+.Profile {
+position: absolute;
+width: 1.250vw;
+height: 1.250vw;
+right: 5.729vw;
+top: calc(40% - 1.250vw/2);
+color: #8484A0;
+}
+
+.Option {
+position: absolute;
+width: 1.250vw;
+height: 1.250vw;
+right: 3.125vw;
+top: calc(40% - 1.250vw/2);
+color: #8484A0;
+}
