@@ -1,4 +1,4 @@
-#Wasseerstoff Frontend Assignment
+# Wasseerstoff Frontend Assignment
 
 The tech stach for this project consisted of:
 * React JS as the base
